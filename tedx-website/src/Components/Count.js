@@ -13,9 +13,9 @@ class App extends Component {
         <div className="lg:w-3/4 h-full pt-7 pl-7 pr-7 pb-7 mx-auto">
           <div className="p-5 mx-auto my-auto">
             <h1 className="text-center font-bold lg:text-2xl text-xl mb-10">
-            November 16th, 2024
+            November 29th, 2025
             </h1>
-            <Clock deadline={this.state.deadline} className="mt-10" />
+            {/* <Clock deadline={this.state.deadline} className="mt-10" /> */}
           </div>
         </div>
       </div>

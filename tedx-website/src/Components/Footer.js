@@ -40,7 +40,7 @@ export default function Footer() {
             This independent TEDx event is operated under license from TED
           </p>
           <p className="is-size-7 is-hidden-tablet">
-            <br/>Copyright © CODEONE 2024
+            <br/>Copyright © CODEONE 2025
           </p>
         </div>
         <div className="column is-3 is-hidden-mobile has-text-right">
@@ -73,7 +73,7 @@ export default function Footer() {
 
         </div>
       </div>
-        <p className="is-size-6 has-text-centered is-hidden-mobile">Copyright © CODEONE 2024
+        <p className="is-size-6 has-text-centered is-hidden-mobile">Copyright © CODEONE 2025
       </p>
 
 

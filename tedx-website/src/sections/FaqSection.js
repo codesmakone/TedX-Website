@@ -23,7 +23,7 @@ function FaqSection() {
         <b>When and Where</b>
       </h1>
       <p>
-      The event will be held on November 16th, 09.00 - 12.00, at SMAK 1’s Aula (8th Floor).
+      The event will be held on November 29th, 09.00 - 12.00, at Ukrida's Aula (7th Floor).
       </p>
       <h1 className="is-size-3 has-text-centered mt-5 mb-2">
         <b>Do I have to buy tickets?</b>

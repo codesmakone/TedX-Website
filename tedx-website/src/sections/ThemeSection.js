@@ -29,7 +29,7 @@ function ThemeSection() {
             data-aos-once="true"
             data-aos-anchor-placement="top-center"
           >
-            Mainframe Under Siege
+            Unlocking Prism Color
           </h1>
         </div>
         <div className="columns is-vcentered z-10">
@@ -44,7 +44,7 @@ function ThemeSection() {
             data-aos-anchor-placement="top-center"
           >
             <p className="lg:pt-3 text-lg lg:text-2xl lg:text-center mx-5 text-justify">
-            Any mainframe in the world is no longer safe due to the evolution of cybercrime. A firewall is one way to defend the mainframe, but it’s constantly modified to maintain its level of security. It is the same as tackling the real world. Issues in the future will continuously advance, which means our problem-solving method needs to adapt. Future problems shouldn’t be solved using present methods.
+            A prism glass is a clear object made of glass or plastic that bends and refracts light. As a single beam of light passes through, it slows down and shifts at different angles depending on its wavelength, breaking apart into a beautiful rainbow spectrum. The prism becomes a powerful symbol of life’s challenges and perspectives, just like the colors change with the prism’s angle, our own unique experiences and viewpoints shape the beautiful, meaningful, and relevant ideas we bring into today’s world.
             </p>
           </div>
         </div>
