@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 import NavbarMenu from "../Components/NavbarMenu";
 import SpaceTime from "../images/2023/LogoSpaceTime.png";
 import BgDecor from "../images/2024/bg-ish.png";
-import MainframeSiege from "../images/2024/logo.png"
+import PrismColor from "../images/2025/logo.jpeg"
 
 function ThemeSection() {
   return (
@@ -14,7 +14,7 @@ function ThemeSection() {
           {/* <img src={Circle} className="absolute right-0 -z-10 scale-24 lg:scale-80" alt="infinite"/> */}
           {/* <img src={Wave} className="absolute left-0 bottom-[-250px] lg:bottom-[200px] lg:scale-24" alt="infinite"/> */}
           <img src={BgDecor} className="absolute -z-10" alt="infinite"/>
-          <img src={MainframeSiege} className="opacity-30 -z-10 mx-auto" alt="infinite"/>
+          <img src={PrismColor} className="opacity-30 -z-10 mx-auto" alt="infinite"/>
           
 
         </div>
