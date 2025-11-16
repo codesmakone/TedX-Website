@@ -25,7 +25,7 @@ export default function FlipImage({ front, back, alt = "" }) {
         <img
           src={back}
           alt={alt}
-          className="absolute object-contain"
+          className="absolute w-full object-contain"
           style={{
             backfaceVisibility: "hidden",
             WebkitBackfaceVisibility: "hidden",
