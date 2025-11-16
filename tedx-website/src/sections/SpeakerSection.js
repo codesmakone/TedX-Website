@@ -20,9 +20,24 @@ import chefbry from '../images/2024/speakers/chefbry.png'
 import bryant from '../images/2024/speakers/bryant.png'
 import oscar from '../images/2024/speakers/oscar.png'
 
+import FlipImage from "../Components/FlipImgSpeaker";
+import anton from '../images/2025/speakers/Anton.png'
+import bagusde from '../images/2025/speakers/Bagusde.png'
+import betha from '../images/2025/speakers/Betha.png'
+import billy from '../images/2025/speakers/Billy.png'
+import christie from '../images/2025/speakers/Christie.png'
+import gisella from '../images/2025/speakers/Gisella.png'
+import irawati from '../images/2025/speakers/Irawati.png'
+import nicole from '../images/2025/speakers/Nicole.png'
 
-
-
+import anton_desc from '../images/2025/speakers/desc/Anton_desc.png'
+import bagusde_desc from '../images/2025/speakers/desc/Bagusde_desc.png'
+import betha_desc from '../images/2025/speakers/desc/Betha_desc.png'
+import billy_desc from '../images/2025/speakers/desc/Billy_desc.png'
+import christie_desc from '../images/2025/speakers/desc/Christie_desc.png'
+import gisella_desc from '../images/2025/speakers/desc/Gisella_desc.png'
+import irawati_desc from '../images/2025/speakers/desc/Irawati_desc.png'
+import nicole_desc from '../images/2025/speakers/desc/Nicole_desc.png'
 
 export default function SpeakerSection() {
   return (
@@ -40,20 +55,20 @@ export default function SpeakerSection() {
         <h1 className="section-title has-text-centered is-size-1-mobile">
           <b>SPEAKERS</b>
         </h1>
-        <div className="grid text-center lg:grid-rows-2">
-          <div className="grid mx-auto text-center lg:grid-cols-4 grid-cols-2">
-            <img className="" src={valencia}/>
-            <img className="" src={natasha}/>
-            <img className="" src={filda}/>
-            <img className="" src={kezia}/>
-          </div>
-          <div className="grid mx-auto text-center place-items-center lg:grid-cols-3 grid-cols-2">
-            <img className="" src={chefbry}/>
-            <img className="" src={bryant}/>
-            <img className="lg:col-span-1 col-span-2 w-1/2 lg:w-auto" src={oscar}/>
-          </div>
-        </div>
+      
+      <div className="grid grid-cols-2 mx-10 gap-y-[50px] md:gap-y-20 lg:gap-y-20 md:grid-cols-2 lg:grid-cols-3">
+        <FlipImage front={bagusde} back={bagusde_desc}/>
+        <FlipImage front={anton} back={anton_desc}/>
+        <FlipImage front={irawati} back={irawati_desc}/>
+        <FlipImage front={christie} back={christie_desc}/>
+        <FlipImage front={billy} back={billy_desc}/>
+        <FlipImage front={nicole} back={nicole_desc}/>
+        <FlipImage front={betha} back={betha_desc}/>
+        <FlipImage front={gisella} back={gisella_desc}/>
       </div>
+
+      </div>
+
       {/* <div className="">
 >>>>>>> Stashed changes
         <div>
