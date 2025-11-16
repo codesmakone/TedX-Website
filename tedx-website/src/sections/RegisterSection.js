@@ -40,9 +40,9 @@ function RegisterSection() {
                     className="columns"> */}
                     <div className="colum">
                         {/* <h1 className="section-title has-text-centered is-size-1-mobile">REGISTER</h1> */}
-                        <button className='text-center  text-4xl lg:text-5xl font-bold bg-white  p-3  hover:text-gray-100 rounded-2xl'>
+                        <button className='text-center  text-4xl lg:text-5xl font-bold bg-white  py-4 px-5  hover:text-gray-100 rounded-2xl'>
                             <a href='https://tickets.smakone.org' target="blank" className='text-red-700 '>
-                                Register
+                                REGISTER
                             </a>
                         </button>
                     </div>

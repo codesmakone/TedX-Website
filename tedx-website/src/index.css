@@ -12,6 +12,15 @@ code {
     monospace;
 }
 
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

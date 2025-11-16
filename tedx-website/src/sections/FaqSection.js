@@ -16,7 +16,7 @@ function FaqSection() {
                   data-aos-mirror="true"
                   data-aos-once="true"
                   data-aos-anchor-placement="top-center">
-      <h1 className="section-title is-size-1-mobile">
+      <h1 className="mt-20 xl:mt-30 section-title is-size-1-mobile">
         <b>FAQ</b>
       </h1>
       <h1 className="is-size-3 has-text-centered mt-5 mb-2">
