@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 import NavbarMenu from "../Components/NavbarMenu";
 import SpaceTime from "../images/2023/LogoSpaceTime.png";
 import BgDecor from "../images/2024/bg-ish.png";
-import PrismColor from "../images/2025/logo.jpeg"
+import PrismColor from "../images/2025/logo_nobg.png"
 
 function ThemeSection() {
   return (
@@ -14,11 +14,11 @@ function ThemeSection() {
           {/* <img src={Circle} className="absolute right-0 -z-10 scale-24 lg:scale-80" alt="infinite"/> */}
           {/* <img src={Wave} className="absolute left-0 bottom-[-250px] lg:bottom-[200px] lg:scale-24" alt="infinite"/> */}
           <img src={BgDecor} className="absolute -z-10" alt="infinite"/>
-          <img src={PrismColor} className="opacity-30 -z-10 mx-auto" alt="infinite"/>
+          <img src={PrismColor} className="absolute md:top-[-50px] lg:top-[300px] left-1/2 -translate-x-1/2 opacity-30 -z-10 mx-auto" alt="infinite"/>
           
 
         </div>
-        <div className="columns is-centered is-vcentered pb-7 -mt-20 lg:-mt-0">
+        <div className="columns is-centered is-vcentered pb-7 lg:-mt-0">
           <h1
             className="text-5xl lg:text-8xl mx-auto lg:mx-0 text-red-600 font-bold pt-32 font-archivo text-center"
             data-aos="fade-right"
