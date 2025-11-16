@@ -56,7 +56,7 @@ export default function SpeakerSection() {
           <b>SPEAKERS</b>
         </h1>
       
-      <div className="grid grid-cols-2 mx-10 gap-y-[50px] md:gap-y-20 lg:gap-y-20 md:grid-cols-2 lg:grid-cols-3 xl:gap-y-[100px] xl:mx-[100px]">
+      <div className="grid grid-cols-2 mx-10 gap-y-[50px] md:gap-y-20 lg:gap-y-20 md:grid-cols-2 lg:grid-cols-3 xl:gap-y-[70px] xl:mx-[100px]">
         <FlipImage front={bagusde} back={bagusde_desc}/>
         <FlipImage front={anton} back={anton_desc}/>
         <FlipImage front={irawati} back={irawati_desc}/>
